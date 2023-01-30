@@ -35,7 +35,7 @@ const Navbar = () => {
           </a >
           </li>
           <li className='li-icons'>
-            <a href='https://github.com/sj1978' target="_blank" rel="noreferrer" >
+            <a href='https://github.com/sjdev2212' target="_blank" rel="noreferrer" >
           <img  className="github" src={github} alt="github icon" />
           </a >
           </li>
