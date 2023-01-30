@@ -1,0 +1,103 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url('./images/Meteor.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48vw;
+    width: 100%;
+  
+}
+.caripela {
+     height: 28vw;
+    width: 28vw;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 1px #413939;
+    opacity: 0.9;
+    filter: sepia(10%);
+
+    position: relative;
+    top: 8vw;
+    left: 13vw;
+}
+.nombre {
+    position: relative;
+    animation-fill-mode: forwards;
+    top: 7.5vw;
+    left: 22vw;
+    font-size: 3vw;
+    font-weight: 800;
+    color: rgb(236, 216, 216);
+   width: 40vw;
+   
+}
+.dev {
+    position: relative;
+    top: 14vw;
+    left: 21vw;
+    font-size: 2vw;
+    font-weight: 800;
+    color: rgb(248, 11, 11);
+
+}
+.paragraph{
+    position: relative;
+    left:50vw;
+    bottom: 10vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: rgb(236, 216, 216);
+    width: 30vw;
+  text-align: center;
+}
+
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: end;
+   
+}
+.typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2vw;
+    font-weight: 800;
+    color: whitesmoke;
+  }
+
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  .paragraph{
+    animation: 8s anim-paragraph ease-out ;
+  }
+  @keyframes anim-paragraph {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }

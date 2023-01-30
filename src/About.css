@@ -1,0 +1,17 @@
+.about {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-image: url('./images/about.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.5vw;
+}
+.text-about{ 
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(230, 193, 187);
+    margin-bottom: 1vw;
+}
+
