@@ -5,9 +5,6 @@
 ## Built With
 
 - React 
-- Redux-thunk, Redux-logger, axios.
-- React Testing Library
-
 
 ## Live Demo
 
