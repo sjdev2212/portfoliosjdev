@@ -3,9 +3,9 @@
     background-color: #f5f5f5;
     border-radius: 5px;
     margin-bottom: 20px;
-    background-image: url('./images/about.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(255,250,250);
+    background: rgb(255,250,250);
+    background: linear-gradient(0deg, rgba(255,250,250,1) 0%, rgba(6,6,6,1) 0%, rgba(5,5,5,1) 14%, rgba(34,37,41,1) 26%, rgba(6,6,6,1) 39%, rgba(6,6,6,1) 64%);     background-size: cover;
     height: 45.5vw;
 }
 .text-about{ 

@@ -103,27 +103,30 @@ grid-template-columns: 1fr;
   border-radius: 10px;
 }
 
-.btn{
-    width: 10vw;
-    height: 3vw;
-    border-radius: 10px;
-    background-color: #585a5c;
-    color: whitesmoke;
-    font-size: 1.5vw;
-    font-weight: 800;
+.btn {
+    background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB  51%, #1F1C2C  100%);
+    margin: 10px;
+    padding: 15px 45px;
     text-align: center;
-    margin-top: 1vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
-   
-   
-}
-.btn:hover{
-    transform: scale(1.1);
-}
-.btn:hover{
-    background-color: darkblue;
-}
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 12.5vw;
+    height: 4vw;
+    font-size: 0.8vw;
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
 .btn-container{
 display: flex;
 flex-direction: column;

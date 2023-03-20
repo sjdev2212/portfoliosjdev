@@ -12,14 +12,14 @@ Hi! My name is Anibal, I'm a full-stack software developer with a focus on the M
 Some of my skills are:
 </p>
 <p className='text-about'>
-Front-end: JavaScript, React, Redux, HTML5, CSS3, Bootstrap.
+Front-end: JavaScript, React, Redux, HTML5, CSS3, Bootstrap, Tailwind.
 </p>
 <p className='text-about'>
-Back-End: Ruby on Rails, Express, Postgresql, Java, Spring.
+Back-End: Ruby on Rails, Express, Postgresql.
 
 </p>
 <p className='text-about'>
-Tools and methods: Git, Github, Netlify.
+Tools and methods: Git, Github, Netlify, Render.
 </p>
 </section>
 
