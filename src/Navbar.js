@@ -16,12 +16,11 @@ const Navbar = () => {
     const [sidebar, setSidebar] = useState(false);
 
     const showSidebar = () => {
-      console.log (sidebar)
         setSidebar(!sidebar);
     }
   return (
     <>
-          <IconContext.Provider value={{ color: 'whitesmoke', marginTop: '2vw' }}>
+          <IconContext.Provider  value={{ color: 'whitesmoke', marginTop: '2vw' }}>
     <div className="navbar">
 
 <Link to='#' className='menu-bars' >
