@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
 
 .content {
-  background-image: url('./images/content.svg');
-  background-repeat: no-repeat;
+  background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
   background-size: cover;
   height: 130vw;
   display: grid;

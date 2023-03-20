@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import cara from './images/caron.jpeg'
+import { motion } from 'framer-motion'
 
 
 
@@ -8,8 +9,10 @@ export const Home = () => {
   return (
     <main className='main'>
       <section className='home-container'>
-      <div>
-      <img className='caripela' src={cara} alt="caripela" />
+      <div>  
+      <motion.img initial={{ y: "100%" }}
+  animate={{ y: "calc(15vw - 50%)"  , rotate: 360, scale: 0.98 }} className='caripela' src={cara} alt="caripela" >
+      </motion.img>
       </div>
         <div>
       <h1 className='nombre'>Anibal Amoroso</h1>
