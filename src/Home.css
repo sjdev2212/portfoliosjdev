@@ -1,101 +1,176 @@
 .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
-    height: 48vw;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: radial-gradient(circle farthest-corner at 16.5% 28.1%, rgba(15, 27, 49, 1) 0%, rgba(0, 112, 218, 1) 90%);
+  height: 48vw;
+  width: 100%;
+
+}
+
+.caripela {
+  height: 28vw;
+  width: 28vw;
+  border-radius: 100%;
+  box-shadow: 1px 1px 1px 1px #413939;
+  opacity: 0.9;
+  filter: sepia(10%);
+  position: relative;
+  top: 8vw;
+  left: 13vw;
+}
+
+.nombre {
+  position: relative;
+  animation-fill-mode: forwards;
+  top: 7.5vw;
+  left: 22vw;
+  font-size: 3vw;
+  font-weight: 800;
+  color: rgb(236, 216, 216);
+  width: 40vw;
+
+}
+
+.dev {
+  position: relative;
+  top: 14vw;
+  left: 21vw;
+  font-size: 2vw;
+  font-weight: 800;
+
+
+}
+
+.paragraph {
+  position: relative;
+  left: 50vw;
+  bottom: 10vw;
+  font-size: 1.5vw;
+  font-weight: 800;
+  color: rgb(236, 216, 216);
+  width: 30vw;
+  text-align: center;
+  animation: 8s anim-paragraph ease-out;
+}
+
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: end;
+
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2vw;
+  font-weight: 800;
+  color: whitesmoke;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+@keyframes anim-paragraph {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 800px) {
   
+.main {
+display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(circle farthest-corner at 16.5% 28.1%, rgba(15, 27, 49, 1) 0%, rgba(0, 112, 218, 1) 90%);
+  height: 150vw;
+  width: 100%;
 }
 .caripela {
-     height: 28vw;
-    width: 28vw;
-    border-radius:100%;
-    box-shadow: 1px 1px 1px 1px #413939;
-    opacity: 0.9;
-    filter: sepia(10%);
-
-    position: relative;
-    top: 8vw;
-    left: 13vw;
+  height: 14vw;
+  width: 15vw;
+  border-radius: 10%;
+  box-shadow: 1px 1px 1px 1px #413939;
+  opacity: 0.9;
+  filter: sepia(10%);
+  position: relative;
+  top: 15vw;
+  left: 45vw;
 }
 .nombre {
-    position: relative;
-    animation-fill-mode: forwards;
-    top: 7.5vw;
-    left: 22vw;
-    font-size: 3vw;
-    font-weight: 800;
-    color: rgb(236, 216, 216);
-   width: 40vw;
-   
+  position: relative;
+  animation-fill-mode: forwards;
+  top: 7.5vw;
+  left: -6vw;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(236, 216, 216);
+  width: 38vw;
+  margin-bottom: 3vw;
+
 }
+
 .dev {
-    position: relative;
-    top: 14vw;
-    left: 21vw;
-    font-size: 2vw;
-    font-weight: 800;
-    color: rgb(248, 11, 11);
+  position: relative;
+  top: 10vw;
+  left: -9vw;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 3vw;
 
-}
-.paragraph{
-    position: relative;
-    left:50vw;
-    bottom: 10vw;
-    font-size: 1.5vw;
-    font-weight: 800;
-    color: rgb(236, 216, 216);
-    width: 30vw;
-  text-align: center;
-}
 
-.home-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: end;
-   
 }
 .typing-demo {
-    width: 22ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2vw;
-    font-weight: 800;
-    color: whitesmoke;
-  }
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2vw;
+  font-weight: 800;
+  color: whitesmoke;
+}
 
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
-  .paragraph{
-    animation: 8s anim-paragraph ease-out ;
-  }
-  @keyframes anim-paragraph {
-    0% {
-      opacity: 0;
-      transform: translateY(80%);
-    }
-    20% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
+.paragraph {
+  position: relative;
+  left: 36vw;
+top: 30vw;
+  font-size: 15px;
+  font-weight: 800;
+  color: rgb(236, 216, 216);
+  width: 32vw;
+  text-align: center;
+  animation: 8s anim-paragraph ease-out;
+}
+
+
+}
