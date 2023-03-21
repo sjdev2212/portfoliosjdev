@@ -5,9 +5,14 @@ import { motion } from 'framer-motion'
 
 
 
+
+
+
 export const Home = () => {
   return (
+
     <main className='main'>
+      
       <section className='home-container'>
       <div>  
       <motion.img initial={{ y: "100%" }}
@@ -27,6 +32,7 @@ export const Home = () => {
           you need coded, do not hesitate to contact me.
         </div>
       </section>
+
 
     </main>
   )
