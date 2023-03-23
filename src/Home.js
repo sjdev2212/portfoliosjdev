@@ -26,12 +26,16 @@ export const Home = () => {
       Full-Stack Developer
     </div>
       </div>
-      <div className="paragraph">
-          I can help you build a product , feature or website.
-           Look through some of my work and experience! If you like what you see and have a project
-          you need coded, do not hesitate to contact me.
-        </div>
+      <p className='paragraph'> I can help you build a product , feature or website.
+           Look through some of my work and experience! If you like what you see and have a project</p>
+    
+    
+      
+     
       </section>
+<section className='options'>
+  
+  </section>
 
 
     </main>
