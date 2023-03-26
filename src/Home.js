@@ -34,8 +34,13 @@ export const Home = () => {
      
       </section>
 <section className='options'>
-  
+   <ul>
+    <li> <button>Projects</button></li>
+    <li><button> Contact</button> </li>
+     <li><button>About</button></li>
+   </ul>
   </section>
+  
 
 
     </main>
