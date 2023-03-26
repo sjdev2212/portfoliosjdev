@@ -118,23 +118,23 @@ display: flex;
   width: 100%;
 }
 .caripela {
-  height: 20vw;
-  width: 20vw;
+  height: 22vw;
+  width: 22vw;
   border-radius: 10%;
   box-shadow: 1px 1px 1px 1px #413939;
   opacity: 0.9;
   filter: sepia(10%);
   position: relative;
   top: 15vw;
-  left: 41vw;
-  margin-top: 8vw;
+  left: 44vw;
+  margin-top: 10vw;
 }
 .nombre {
   position: relative;
   animation-fill-mode: forwards;
   top: 7.5vw;
   left: -13vw;
-  font-size: 20px;
+  font-size: 5vw;
   font-weight: 800;
   color: rgb(236, 216, 216);
   width: 38vw;
@@ -162,6 +162,7 @@ display: flex;
   font-size: 3vw;
   font-weight: 800;
   color: whitesmoke;
+  margin-top: 5vw;
 }
 
 .paragraph {
@@ -184,7 +185,7 @@ display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10vw;
+  margin-top: 33vw;
 }
 
 }
