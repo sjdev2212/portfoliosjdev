@@ -1,10 +1,11 @@
 .about {
     padding: 20px;
     background-color: #f5f5f5;
-    border-radius: 5px;
     margin-bottom: 20px;
     background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
-    height: 46vw;
+    background-image: cover;
+    height: 50vw;
+ 
 }
 .text-about{ 
     font-size: 1.8vw;
@@ -15,14 +16,19 @@
 .about-mobile{
     display: none;
 }
+.links-mobile{
+    display: none;
+}
+
 
 @media screen and (max-width: 800px) {
 .about{
     display: flex;
 flex-direction: column;
 background-image: radial-gradient(circle farthest-corner at 16.5% 28.1%, rgba(15, 27, 49, 1) 0%, rgba(0, 112, 218, 1) 90%);
-height: 255vw;
-width: 100%;
+height: 195vw;
+border: 5px solid black;
+
 
 }
 .about-section{ 
@@ -30,12 +36,14 @@ width: 100%;
     border-color: rgb(230, 193, 187);
 padding: 4vw;
 border-radius: 10%;
-height: 100vw;
-margin-top: -120vw;
+margin-bottom : 5vw;
+margin-top: 10vw;
+
+
 
 }
 .text-about{ 
-    font-size: 3.5vw;
+    font-size: 4.2vw;
     font-weight: bold;
     color: rgb(230, 193, 187);
     margin-bottom: 1vw;
@@ -47,6 +55,8 @@ margin-top: -120vw;
 .btn-about{
     width: 60vw;
 height: 12vw;
+margin-top: 7vw;
+margin-left: 15.5vw;
 }
 .btn-about:hover{
     background-color: #463f3f;
@@ -55,4 +65,31 @@ border: 1px solid #211f1f;
 box-shadow: 0 0 0 2px #c9cfb2;
 transition: 0.5s;
 }
+.links-mobile{
+    display: block;
+    margin-top: 5vw;
+    width: 60vw;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 0.3vw;
+    margin-left: 20vw;
+    list-style: none;
+  }
+  .link{
+    width: 7vw;
+  height: 7vw;
+  border-radius: 20%;
+    box-shadow: 1px 1px 1px 1px #413939;
+  background-image: linear-gradient(to right, #edeaf7 0%, #d2d1da 51%, #dbd9e3 100%);
+  transition: 0.5s;
+  margin: 0 3vw;
+  }
+  
+  .link:hover {
+    transform: scale(1.2);
+  
+  }
 }

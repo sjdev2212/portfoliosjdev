@@ -1,5 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import linked from './images/link.svg'
+import github from './images/github1.svg'
+import angel from './images/angellist.svg'
+import twitter from './images/twitter.svg'
+
 import './About.css'
 
 export const About = () => {
@@ -24,6 +29,30 @@ Tools and methods: Git, Github, Netlify, Render.
 </p>
 
 </section>
+<div className='links-mobile' >
+<ul className='icons'>
+          <li className='li-icons'>
+            <a href='https://www.linkedin.com/in/anibalamoroso/' target="_blank" rel="noreferrer" >
+          <img  className="link" src={linked} alt="linkedin icon" />
+          </a >
+          </li>
+          <li className='li-icons'>
+            <a href='https://github.com/sjdev2212' target="_blank" rel="noreferrer" >
+          <img  className="link" src={github} alt="github icon" />
+          </a >
+          </li>
+          <li className='li-icons'>
+            <a href='https://angel.co/u/anibal-amoroso' target="_blank" rel="noreferrer" >
+          <img  className="link" src={angel} alt="Angel list icon" />
+          </a >
+          </li>
+          <li className='li-icons'>
+            <a href='https://twitter.com/AmorosoAnibal' target="_blank" rel="noreferrer" >
+          <img  className="link" src={twitter} alt="Twitter icon" />
+          </a >
+          </li>
+        </ul>
+</div>
 <div className='about-mobile'>
 <Link to='/'>
 <button className='btn-about'>Back</button>
