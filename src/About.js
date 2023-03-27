@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './About.css'
 
 export const About = () => {
@@ -23,7 +24,11 @@ Tools and methods: Git, Github, Netlify, Render.
 </p>
 
 </section>
-
+<div className='about-mobile'>
+<Link to='/'>
+<button className='btn-about'>Back</button>
+</Link>
+</div>
 
     </main>
   )
