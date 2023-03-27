@@ -35,9 +35,9 @@ export const Home = () => {
       </section>
 <section className='options'>
    <ul>
-    <li> <button>Projects</button></li>
-    <li><button> Contact</button> </li>
-     <li><button>About</button></li>
+    <li> <button className="sm-btn">Projects</button></li>
+    <li><button className="sm-btn"> Contact</button> </li>
+     <li><button className="sm-btn">About</button></li>
    </ul>
   </section>
   
