@@ -13,3 +13,30 @@
     margin-bottom: 1vw;
 }
 
+@media screen and (max-width: 800px) {
+.about{
+    display: flex;
+flex-direction: column;
+background-image: radial-gradient(circle farthest-corner at 16.5% 28.1%, rgba(15, 27, 49, 1) 0%, rgba(0, 112, 218, 1) 90%);
+height: 255vw;
+width: 100%;
+
+}
+.about-section{ 
+    border: 4px solid;
+    border-color: rgb(230, 193, 187);
+padding: 4vw;
+border-radius: 10%;
+height: 100vw;
+margin-top: -120vw;
+
+}
+.text-about{ 
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: rgb(230, 193, 187);
+    margin-bottom: 1vw;
+}
+
+    
+}

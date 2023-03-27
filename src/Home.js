@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import cara from './images/caron.jpeg'
+import {Link} from 'react-router-dom'
 import { motion } from 'framer-motion'
 
 
@@ -35,9 +36,15 @@ export const Home = () => {
       </section>
 <section className='options'>
    <ul>
+    <Link to='/projects'>
     <li> <button className="sm-btn">Projects</button></li>
+    </Link>
+    <Link to='/contact'>
     <li><button className="sm-btn"> Contact</button> </li>
+    </Link>
+    <Link to='/about'>
      <li><button className="sm-btn">About</button></li>
+    </Link>
    </ul>
   </section>
   

@@ -21,6 +21,7 @@ Back-End: Ruby on Rails, Express, Postgresql.
 <p className='text-about'>
 Tools and methods: Git, Github, Netlify, Render.
 </p>
+
 </section>
 
 
