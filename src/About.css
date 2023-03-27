@@ -12,6 +12,9 @@
     color: rgb(230, 193, 187);
     margin-bottom: 1vw;
 }
+.about-mobile{
+    display: none;
+}
 
 @media screen and (max-width: 800px) {
 .about{
@@ -37,6 +40,19 @@ margin-top: -120vw;
     color: rgb(230, 193, 187);
     margin-bottom: 1vw;
 }
-
-    
+.about-mobile{
+    display: block; 
+  
+}
+.btn-about{
+    width: 60vw;
+height: 12vw;
+}
+.btn-about:hover{
+    background-color: #463f3f;
+color: #c9cfb2;
+border: 1px solid #211f1f;
+box-shadow: 0 0 0 2px #c9cfb2;
+transition: 0.5s;
+}
 }
