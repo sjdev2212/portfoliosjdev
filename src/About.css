@@ -7,7 +7,14 @@
     height: 50vw;
 
 }
+.about-section{
+    margin-top: 6vw;
 
+}
+.techs-desk{
+  
+    margin-left: 1vw;
+}
 .text-about {
     font-size: 1.8vw;
     font-weight: bold;
