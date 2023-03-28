@@ -1,8 +1,8 @@
-import React from 'react'
 import  { useRef } from 'react';
 import {useNavigate} from 'react-router';
 import emailjs from '@emailjs/browser';
 import toast, {Toaster}  from 'react-hot-toast';
+import mail from './images/mail.svg';
 import './Contact.css'
 
 
@@ -18,13 +18,18 @@ export const Contact = () => {
     }
     , 3000);
   }
-
   const sendEmail = (e) => {
     e.preventDefault();
+   let variant = document.getElementById('vari')
+    if (form.current.user_name.value === '' || form.current.user_email.value === '' || form.current.message.value === '') {
+      toast.error('Please fill all the fields');
+      return;
+    }
    emailjs.sendForm('service_yyhugbz', 'template_t0z9cfi', form.current, 'vvsATdb4z4kkoYGOa')
       .then((result) => {
           console.log(result.text);
           if (result.text === 'OK') {
+        variant.setAttribute('class', 'mail-gone')
             mailSuccess();
            
             form.current.reset();
@@ -35,6 +40,7 @@ export const Contact = () => {
 
       });
   };
+
   return (
    <section className='contact'>
       <h1>Contact</h1>
@@ -59,6 +65,7 @@ export const Contact = () => {
       <label>Message</label>
       <textarea className='text-area' name="message" />
       <input className='button' type="submit" value="Send" />
+      <img id='vari'  src={mail} alt='mail icon' />
     </form>
    </section>
   )

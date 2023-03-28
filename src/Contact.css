@@ -68,3 +68,27 @@ cursor: pointer;
     background-color: rgb(235, 204, 204);
     color: rgb(43, 39, 39);
 }
+img{
+    width: 3.5vw;
+}
+.mail-gone {
+    animation-name: mail-gone;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes mail-gone {
+    0% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 30vw;
+    }
+    75% {
+        margin-left: 50vw;
+    }
+    100% {
+        margin-left: 100vw;
+
+    }
+}
