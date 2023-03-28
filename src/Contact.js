@@ -43,7 +43,6 @@ export const Contact = () => {
 
   return (
    <section className='contact'>
-      <h1>Contact</h1>
       <Toaster 
       position="top-center"
       reverseOrder={false}
@@ -53,10 +52,11 @@ export const Contact = () => {
           background: '#363636',
           borderRadius : '3%',
           color: 'whitesmoke',
-          height: '8vw'
+          height: '15vw', 
+          
         }
       }}
-      />
+      className="tosti"/>
       <form className='contact-form' ref={form} onSubmit={sendEmail} >
       <label>Name</label>
       <input className='inputs' type="text" name="user_name" />

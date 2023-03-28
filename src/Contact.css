@@ -92,3 +92,42 @@ img{
 
     }
 }
+
+@media screen and (max-width: 790px) {
+    .contact {
+        height: 250vw;
+       
+
+    }
+    .contact-form {
+        font-size: 3vw;
+        height: 75vw;
+        width: 98vw;
+        margin-top: -170vw;
+        }
+    .inputs {
+        width: 80%;
+        height: 8vw;
+        font-size: 3vw;
+    }
+    .text-area {
+        width: 80%;
+        height: 22vw;
+        font-size: 3vw;
+    }
+    .button {
+        width: 20vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
+    img {
+        width: 7vw;
+    }
+    .tosti {
+        background: #d83737;
+        border-radius : 3%;
+        color: whitesmoke;
+        height: 25vw;
+    }
+}
+    
