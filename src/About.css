@@ -23,6 +23,10 @@
     display: none;
 }
 
+.logos{
+    display: none;
+}
+
 
 @media screen and (max-width: 800px) {
     .about {
@@ -104,4 +108,30 @@
         transform: scale(1.2);
 
     }
+    .logos{
+        display: flex;
+       
+    }
+    .techs-mov{
+        width: 10vw;
+        height: 10vw;
+        border-radius: 10px;
+        margin: 0 1vw;
+    }
+    .floating { 
+        animation-name: floating;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 2vw;
+        margin-bottom: 3.2vw;
+    }
+     
+    @keyframes floating {
+        0% { transform: scale(0.5) }
+        50%  { transform: scale(1); }
+        100%   { transform: scale(0.5); }   
+    }
+   
+  
 }
