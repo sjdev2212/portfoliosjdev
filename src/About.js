@@ -4,13 +4,30 @@ import linked from './images/link.svg'
 import github from './images/github1.svg'
 import angel from './images/angellist.svg'
 import twitter from './images/twitter.svg'
-
+import javascript from './images/jascri.svg'
+import rails from './images/ror.svg'
+import react from './images/react.svg'
+import ruby from './images/ruby.svg'
+import redux from './images/redux.svg'
+import data from './images/sql.svg'
 import './About.css'
 
 export const About = () => {
   return (
     <main className="about">
       <section className="about-section">
+        <div className='logos'>
+          <img  className='techs-mov floating' src={javascript} alt="javascript icon" />
+          <img className='techs-mov floating' src={react} alt="react icon" />
+          <img className='techs-mov floating' src={rails} alt="rails icon" />
+          <img className='techs-mov floating' src={ruby} alt="ruby icon" />
+          <img className='techs-mov floating' src={redux} alt="redux icon" />
+          <img className='floating' style={{width: "11vw", height:"11vw"}} src={data} alt="data icon" />
+      
+
+          
+
+        </div>
         <p className="text-about">
           Hi! My name is Anibal, I'm a full-stack software developer with a
           focus on the MERN stack, but still exploring other technologies and
