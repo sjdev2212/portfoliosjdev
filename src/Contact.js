@@ -1,5 +1,6 @@
 import  { useRef } from 'react';
-import {useNavigate} from 'react-router';
+import {useNavigate } from 'react-router';
+import {Link} from 'react-router-dom'
 import emailjs from '@emailjs/browser';
 import toast, {Toaster}  from 'react-hot-toast';
 import mail from './images/mail.svg';
@@ -67,6 +68,7 @@ export const Contact = () => {
       <input className='button' type="submit" value="Send" />
       <img id='vari'  src={mail} alt='mail icon' />
     </form>
+<Link to='/' className='back'>Back</Link>
    </section>
   )
 }

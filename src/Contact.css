@@ -103,22 +103,26 @@ img{
         font-size: 3vw;
         height: 75vw;
         width: 98vw;
-        margin-top: -170vw;
+        margin-top: -150vw;
         }
     .inputs {
         width: 80%;
-        height: 8vw;
+        height: 22vw;
         font-size: 3vw;
+        margin: 3vw 0;
     }
     .text-area {
         width: 80%;
-        height: 22vw;
+        height: 45vw;
         font-size: 3vw;
+        margin: 3vw 0;
     }
     .button {
-        width: 20vw;
-        height: 10vw;
+        width: 60vw;
+        height: 30vw;
         font-size: 3vw;
+        cursor: pointer;
+        margin: 3vw 0;
     }
     img {
         width: 7vw;
@@ -129,5 +133,16 @@ img{
         color: whitesmoke;
         height: 25vw;
     }
+.back {
+    width: 10vw;
+    height: 10vw;
+   margin: 5vw auto;
+    cursor: pointer;
+    color: whitesmoke;
 }
+.back:hover{
+    color: rgb(43, 39, 39);
+}
+}
+
     

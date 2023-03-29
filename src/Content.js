@@ -36,7 +36,7 @@ export const Content = () => {
     <img className='projects-img' src={budget} alt="expense tracker" />
     </div>
     <div>
-    <h2 className='project-title'>Expense Tracker</h2>
+    <h2 className='project-title mob'>Expense Tracker</h2>
     <p className='built'>Built with : </p>
     <div className='content-container'>
     <img className='ruby' src={ruby} alt="ruby" />
@@ -54,7 +54,7 @@ export const Content = () => {
     </div>
     <div className='project2-4'>
     <div>
-    <h2 className='project-title'>Reservify</h2>
+    <h2 className='project-title '>Reservify</h2>
     <p className='built'>Built with : </p>
     <div className='content-container'>
     <img className='ruby' src={ruby} alt="ruby" />
@@ -75,10 +75,10 @@ export const Content = () => {
     </div>
     <div className='project1-3'>
     <div>
-    <img className='projects-img' src={covid} alt="covid app" />
+    <img className='projects-img  third-img' src={covid} alt="covid app" />
     </div>
     <div>
-    <h2 className='project-title'>Covid Stats</h2>
+    <h2 className='project-title third'>Covid Stats</h2>
     <p className='built'>Built with : </p>
     <div className='content-container'>
     <img className='techs' src={js} alt="javascript" />
