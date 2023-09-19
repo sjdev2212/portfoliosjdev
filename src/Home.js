@@ -27,9 +27,11 @@ export const Home = () => {
       Full-Stack Developer
     </div>
       </div>
-      <p className='paragraph'> I can help you build a product , feature or website.
-           Look through some of my work and experience! If you like what you see and have a project</p>
-    
+      <p className='paragraph'> 
+      Career changer with a wealth of life experience and a strong sense of responsibility,
+       now pursuing a passion for coding.
+      </p>
+
     
       
      
