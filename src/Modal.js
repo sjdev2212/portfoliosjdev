@@ -20,9 +20,17 @@ export const Modal = ({open,  onClose}) => {
         <AiIcons.AiOutlineClose className='exes' onClick={onClose}/>
           </div>
         
-          <h2 className='modal-title'>Expense Tracker</h2>
+          <h2 className='modal-title'>Task Manager</h2>
 
-        <p className='modal-paragraph'>Expense tracker is an application where the user creates an account and can keep track of their expenses. It is a mobile app. Created with Ruby on Rails.</p>
+        <p className='modal-paragraph'>"Introducing my comprehensive task manager application, 
+        designed to keep you organized effortlessly. 
+        This versatile tool empowers users to efficiently manage tasks, 
+        bills, and appointments, all within a single platform. 
+        With a sleek dark mode for enhanced visual comfort and a s
+        eamless toggle between Spanish and English languages, 
+        the app is tailored to suit diverse user preferences. 
+        Rigorously tested with Jest, it's not just a task manager; 
+        it's your reliable digital assistant for staying on top of life's demands."</p>
         <img className='modal-img'  src={budget} alt="project" />
         <div className='modal-btns'>
         <a href='https://budget-app.herokuapp.com/' target='blank' className='live-btn'>See Live</a>

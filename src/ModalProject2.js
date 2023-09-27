@@ -19,7 +19,7 @@ export const ModalProject2 = ({open2,  onClose}) => {
         <AiIcons.AiOutlineClose className='exes' onClick={onClose}/>
           </div>
         
-          <h2 className='modal-title'>Covid in South America</h2>
+          <h2 className='modal-title'>Covid in South Americaaaaaaaa</h2>
 
         <p className='modal-paragraph'>This is an application that gives the numbers for covid in South America. The user chooses a country and the app retrieves the information from an external API. Created with React Redux'.</p>
         <img className='modal-img'  src={covid} alt="project" />

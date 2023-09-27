@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import cara from './images/caron.jpeg'
+import cara from './images/carucha.jpg'
 import {Link} from 'react-router-dom'
 import { motion } from 'framer-motion'
 
