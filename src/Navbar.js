@@ -19,7 +19,7 @@ const Navbar = () => {
         setSidebar(!sidebar);
     }
   return (
-    <div className='navbar-res'>
+    <section className="navbar-res">
           <IconContext.Provider  value={{ color: 'whitesmoke', marginTop: '2vw' }}>
     <div className="navbar">
 
@@ -77,7 +77,7 @@ const Navbar = () => {
 
 </nav>
 </IconContext.Provider>
-   </div>
+   </section>
   )
 }
 

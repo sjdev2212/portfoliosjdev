@@ -5,6 +5,7 @@
   justify-content: flex start;
   align-items: center;
   position: fixed;
+  top: 0;
   z-index: 100; 
 }
 
@@ -136,6 +137,9 @@ span {
 
 @media screen and (max-width: 768px) {
   .navbar-res{
+    display: none;
+  }
+  .navbar {
     display: none;
   }
 }

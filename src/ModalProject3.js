@@ -19,9 +19,9 @@ export const ModalProject3 = ({open3,  onClose}) => {
         <AiIcons.AiOutlineClose className='exes' onClick={onClose}/>
           </div>
         
-          <h2 className='modal-title'>Reservify</h2>
+          <h2 className='modal-title'>Socorros Mutuos</h2>
 
-        <p className='modal-paragraph'>In this application the user can create an account and login to reserve a room in an hotel from a list of several countries.Created with React and Ruby on Rails.</p>
+        <p className='modal-paragraph'>This React application has been exclusively designed for the Socorros Mutuos Association in Argentina. Serving as a comprehensive static service page, it offers affiliates a centralized platform to access a wealth of information and stay updated on all the latest news and developments pertaining to the Socorros Mutuos Association. Whether you are a member or supporter, this platform is your gateway to a treasure trove of resources and insights about the association. </p>
         <img className='modal-img'  src={reserv} alt="project" />
         <div className='modal-btns'>
         <a href='https://reservify.netlify.app/' target='blank' className='live-btn'>See Live</a>
