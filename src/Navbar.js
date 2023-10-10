@@ -6,9 +6,9 @@ import * as AiIcons from 'react-icons/ai'
 import * as FaIcons from 'react-icons/fa'
 import { IconContext } from 'react-icons';
 import linked from './images/link.svg'
-import github from './images/github1.svg'
-import angel from './images/angellist.svg'
-import twitter from './images/twitter.svg'
+import github from './images/github-icon.svg'
+import angel from './images/angel-new.jpg'
+import newTwitter from './images/twitter.jpeg'
 
 
 
@@ -45,7 +45,7 @@ const Navbar = () => {
           </li>
           <li className='li-icons'>
             <a href='https://twitter.com/AmorosoAnibal' target="_blank" rel="noreferrer" >
-          <img  className="angel" src={twitter} alt="Twitter icon" />
+          <img  className="angel" src={newTwitter} alt="Twitter icon" />
           </a >
           </li>
         </ul>

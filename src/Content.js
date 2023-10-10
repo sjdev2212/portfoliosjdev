@@ -1,13 +1,11 @@
 import Carousel from '@itseasy21/react-elastic-carousel'
 import './Content.css'
-import html from './images/html-5.svg'
-import boot from './images/bootstrap.svg'
-import ruby from './images/ruby.svg'
-import rails from './images/rails.svg'
-import post from './images/post.svg'
-import nety from './images/netlify.svg'
 import task1 from './images/task-1.png'
 import task2 from './images/task-2.png'
+import task3 from './images/home-light.png'
+import task4 from './images/add-bill.png'
+import task5 from './images/add-task.png'
+import task6 from './images/calendar.png'
 import loginLight from './images/login-light.png'
 import loginDark from './images/login-dark.png'
 import socorrosFirstHome from './images/first-home.png'
@@ -34,6 +32,10 @@ export const Content = () => {
     <img className="task-img" src={task2} alt="second pic task" />
     <img className="task-img" src={loginLight} alt="login light" />
     <img className="task-img" src={loginDark} alt="login dark" />
+    <img className="task-img" src={task3} alt="home light" />
+    <img className="task-img" src={task4} alt="add bill" />
+    <img className='task-img' src={task5} alt="add task" />
+    <img className='task-img' src={task6} alt="calendar" />
 </Carousel>
 <div className="pills">
 <p className="pill">
@@ -68,7 +70,7 @@ Jest
     <div className="task-content">
     <h2>Task Manager</h2>
 
-    <p className='modal-paragraph'>Introducing my comprehensive task manager application, 
+    <p>Introducing my comprehensive task manager application, 
         designed to keep you organized effortlessly. 
         This versatile tool empowers users to efficiently manage tasks, 
         bills, and appointments, all within a single platform. 
@@ -91,39 +93,10 @@ Jest
   
   
  
-    <div className='project2-4'>
-    <div>
-    <h2 className='project-title '>Socorros Mutuos</h2>
-    <p className='built'>Built with : </p>
-    <div className='content-container'>
-    <img className='ruby' src={ruby} alt="ruby" />
-    <img className='rails' src={rails} alt="rails" />
-    <img className='techs' src={post} alt="postgresql" />
-    <img className='techs' src={html} alt="html" />
-    <img className='techs' src={nety} alt="netlify" />
-    <img className='techs' src={boot} alt="bootstrap" />
-    </div>
-
-
-    </div>
-    <div>
-    <div className='carousel' >
-    <Carousel itemsToShow={1}>
-    <img className='projects-img' src={socorrosFirstHome} alt="home1" />
-    <img className='projects-img' src={socorrosSecondHome} alt="homne2" />
-    <img className='projects-img' src={socorrosFooter} alt="footer" />
-    <img className='projects-img' src={socorrosInst} alt="institucional" />
-    <img className='projects-img' src={socorrosInst2} alt="institucional2" />
-    <img className='projects-img' src={socorrosUrgencias} alt="urgencias" />
-    <img className='projects-img' src={socorrosPagos} alt="pagos" />
-    <img className='projects-img' src={socorrosContact} alt="contacto" />
-
-</Carousel>
-    </div>
-    <div>
-    <h2 className='project-title mob'>Task Manager</h2>
-
-    <p className="modal-paragraph">
+    <section className="socorros-cont">
+    <section className="socorros-content">
+    <h2 >Socorros Mutuos</h2>
+    <p>
     This React application has been exclusively designed for the 
     Socorros Mutuos Association in Argentina. 
     Serving as a comprehensive static service page, 
@@ -134,12 +107,46 @@ Jest
     insights about the association.
 
     </p>
-      
-       </div>
-  
+    <div className="task-btns">
+    <a href='https://socorros-mutuos.web.app/'  target="_blank" rel="noreferrer" className="btn"  >See Live</a>
+    <a href='https://github.com/sjdev2212/socorros-mutuos.git' target="_blank" rel="noreferrer"  className="btn"  >Source</a>
     </div>
+    </section>
+
+
+    <div className="carousel-socorros" >
+    <Carousel itemsToShow={1}>
+    <img className="socorros-img" src={socorrosFirstHome} alt="home1" />
+    <img className="socorros-img" src={socorrosSecondHome} alt="homne2" />
+    <img className="socorros-img" src={socorrosContact} alt="contacto" />
+    <img className="socorros-img" src={socorrosFooter} alt="footer" />
+    <img className="socorros-img" src={socorrosInst} alt="institucional" />
+    <img className="socorros-img" src={socorrosInst2} alt="institucional2" />
+    <img className="socorros-img" src={socorrosUrgencias} alt="urgencias" />
+    <img className="socorros-img" src={socorrosPagos} alt="pagos" />
+
+</Carousel>
+<div className="pills-socorros">
+<p className="pill">
+React
+</p>
+
+<p className="pill">
+HTML
+</p>
+<p className="pill">
+CSS
+</p>
+<p className="pill">
+  Firebase
+</p>
+
+</div>
+    </div>
+ 
+
             
-    </div>
+    </section>
 
 
  

@@ -68,7 +68,10 @@ export const Contact = () => {
       <input className='button' type="submit" value="Send" />
       <img id='vari'  src={mail} alt='mail icon' />
     </form>
-<Link to='/' className='back'>Back</Link>
+    <div className="back-div">
+    <Link to='/' className="back">Back</Link>
+    </div>
+
    </section>
   )
 }

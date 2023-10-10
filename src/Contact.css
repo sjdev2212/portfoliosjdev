@@ -19,13 +19,14 @@ height: 94vh;
     font-size: 1.5vw;
     font-weight: 800;
     text-align: center;
+    margin-top: 5vw;
 }
 .inputs{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 30%;
     height: 3vw;
     color: rgb(33, 30, 30);
     font-size: 1.5vw;
@@ -40,7 +41,7 @@ height: 94vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 30%;
     height: 10vw;
     color: rgb(55, 48, 48);
     font-size: 1.5vw;
@@ -70,6 +71,7 @@ cursor: pointer;
 }
 img{
     width: 3.5vw;
+    margin-top: 1vw;
 }
 .mail-gone {
     animation-name: mail-gone;
@@ -92,10 +94,27 @@ img{
 
     }
 }
+.back-div{
+
+    width: 99vw;
+    height: 3vw;
+}
+.back {
+    width: 3vw;
+    height: 3vw;
+    margin: 1vw;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 1.5vw;
+}
+.back:hover{
+    color: rgb(43, 39, 39);
+    font-size: 1.7vw ;
+}
 
 @media screen and (max-width: 790px) {
     .contact {
-        height: 250vw;
+        height: 280vw;
        
 
     }
