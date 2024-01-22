@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "sjdevportfolio2024",
-    "public": "build",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
