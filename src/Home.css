@@ -1,7 +1,7 @@
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-image: radial-gradient(circle farthest-corner at 16.5% 28.1%, rgba(15, 27, 49, 1) 0%, rgba(0, 112, 218, 1) 90%);
+  background-image: radial-gradient(circle farthest-corner at 16.5% 28.1%, rgba(15, 27, 49, 1) 0%, rgb(233, 112, 13) 90%);
   height: 48vw;
   width: 100%;
 
