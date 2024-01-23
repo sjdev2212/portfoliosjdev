@@ -53,7 +53,7 @@ export const Contact = () => {
           background: '#363636',
           borderRadius : '3%',
           color: 'whitesmoke',
-          height: '15vw', 
+          height: '25vw', 
           
         }
       }}
