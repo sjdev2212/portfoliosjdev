@@ -5,7 +5,7 @@ import {Home} from './Home';
 import {Contact} from './Contact';
 import {About} from './About';
 import {Content} from './Content';
-import Footer from './Footer';
+
 
 function App() {
   return (
