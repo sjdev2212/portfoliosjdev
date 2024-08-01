@@ -2,9 +2,8 @@
     padding: 20px;
     background-color: #f5f5f5;
     margin-bottom: 20px;
-    background-image: radial-gradient(circle farthest-corner at 16.5% 28.1%, rgba(15, 27, 49, 1) 0%, rgba(0, 112, 218, 1) 90%);
-    background-image: cover;
-    height: 50vw;
+    background-image: radial-gradient(circle farthest-corner at 80.5% 60.1%, rgba(15, 27, 49, 1) 0%, rgb(233, 112, 13) 90%);
+    height: 100vw;
 
 }
 .about-section{

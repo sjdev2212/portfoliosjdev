@@ -21,15 +21,14 @@ export const Home = () => {
       </motion.img>
       </div>
         <div>
-      <h1 className='nombre'>Anibal Amoroso</h1>
+      <h1 className='nombre'>Aníbal Amoroso</h1>
       
       <div  className="typing-demo dev">
       Full-Stack Developer
     </div>
       </div>
       <p className='paragraph'> 
-      Career changer with a wealth of life experience and a strong sense of responsibility,
-       now pursuing a passion for coding.
+      Hi! I'm a Full Stack Developer who loves building web applications. I enjoy working on both the visual parts and the behind-the-scenes functionality. My focus is on writing clean code and designing user-friendly experiences. I'm passionate about creating solutions that work well and meet the needs of users and businesses.
       </p>
 
     

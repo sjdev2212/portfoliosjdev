@@ -25,7 +25,7 @@
 .nombre {
   position: relative;
   animation-fill-mode: forwards;
-  top: 7.5vw;
+  top: 9.5vw;
   left: 22vw;
   font-size: 3vw;
   font-weight: 800;
@@ -48,7 +48,7 @@
   position: relative;
   left: 50vw;
   bottom: 10vw;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   font-weight: 800;
   color: rgb(236, 216, 216);
   width: 30vw;
