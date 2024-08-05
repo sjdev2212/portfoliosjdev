@@ -1,6 +1,6 @@
-import Carousel from '@itseasy21/react-elastic-carousel'
+/* import Carousel from '@itseasy21/react-elastic-carousel' */
 import './Content.css'
-import task1 from './images/task-1.png'
+/* import task1 from './images/task-1.png'
 import task2 from './images/task-2.png'
 import task3 from './images/home-light.png'
 import task4 from './images/add-bill.png'
@@ -16,7 +16,7 @@ import socorrosInst from './images/institucional.png'
 import socorrosInst2 from './images/institucional-2.png'
 import socorrosUrgencias  from './images/urgencias.png'
 import socorrosPagos  from './images/pagos.png'
-
+ */
 export const Content = () => {
 
 
@@ -25,7 +25,7 @@ export const Content = () => {
     <main className="content">
 <h1>Latest Projects</h1>
   
-  <section className="task-manager">
+{/*   <section className="task-manager">
     <div className="carousel-task" >
     <Carousel itemsToShow={1}>
     <img className="task-img" src={task1} alt="first pic task" />
@@ -147,7 +147,7 @@ CSS
 
             
     </section>
-
+ */}
 
  
 

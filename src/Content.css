@@ -20,7 +20,7 @@
   }
 }
 .content {
-  background-image: radial-gradient(circle farthest-corner at 80.5% 28.1%, rgba(15, 27, 49, 1) 0%, rgb(233, 112, 13) 90%);
+  background-color: #28182e;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -34,8 +34,8 @@ height: 100vw;
 }
 .content h1{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 5vw;
-  color: white;
+  font-size: 4.7vw;
+  color: #dc234c;
   margin-left: 2vw;
   margin-top: 2vw;
   margin-bottom: 8vw;
