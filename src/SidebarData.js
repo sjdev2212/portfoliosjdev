@@ -7,28 +7,28 @@ export const SidebarData = [
     {
         title: 'Home',
         path: '/',
-        icon: <AiIcons.AiFillHome />,
+        icon: <AiIcons.AiFillHome  color="#dc234c"/>,
         cName: 'nav-text'
 
     },
     {
         title: 'Projects',
         path: '/projects',
-        icon: <HiEye />,
+        icon: <HiEye color="#dc234c" />,
         cName: 'nav-text'
 
     },
     {
         title: 'Contact',
         path: '/contact',
-        icon: <FaIcons.FaRegEnvelopeOpen />,
+        icon: <FaIcons.FaRegEnvelopeOpen color="#dc234c" />,
         cName: 'nav-text'
 
     },
     {
         title: 'About',
         path: '/about',
-        icon: <VscAccount />,
+        icon: <VscAccount color="#dc234c" />,
         cName: 'nav-text'
 
     },
