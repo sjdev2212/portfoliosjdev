@@ -1,9 +1,9 @@
 /* import Carousel from '@itseasy21/react-elastic-carousel' */
 import './Content.css'
 import {useState} from 'react'
- import task1 from './images/task-1.png'
-import task2 from './images/task-2.png'
-import task3 from './images/home-light.png'
+/*  import task1 from './images/task-1.png'
+import task2 from './images/task-2.png' */
+/* import task3 from './images/home-light.png'
 import task4 from './images/add-bill.png'
 import task5 from './images/add-task.png'
 import task6 from './images/calendar.png'
@@ -17,7 +17,7 @@ import socorrosInst from './images/institucional.png'
 import socorrosInst2 from './images/institucional-2.png'
 import socorrosUrgencias  from './images/urgencias.png'
 import socorrosPagos  from './images/pagos.png'
-
+ */
 
 export const Content = () => {
 
@@ -88,7 +88,21 @@ Jest
         <div className="task-btns">
     <a href='https://shimmering-buttercream-92b1e0.netlify.app/'  target="_blank" rel="noreferrer" className="btn"  >See Live</a>
     <a href='https://github.com/sjdev2212/taskmng.git' target="_blank" rel="noreferrer"  className="btn"  >Source</a>
-    </div>
+    </div>import task3 from './images/home-light.png'
+import task4 from './images/add-bill.png'
+import task5 from './images/add-task.png'
+import task6 from './images/calendar.png'
+import loginLight from './images/login-light.png'
+import loginDark from './images/login-dark.png'
+import socorrosFirstHome from './images/first-home.png'
+import socorrosSecondHome from './images/second-home.png'
+import socorrosContact from './images/contacto.png'
+import socorrosFooter from './images/footer.png'
+import socorrosInst from './images/institucional.png'
+import socorrosInst2 from './images/institucional-2.png'
+import socorrosUrgencias  from './images/urgencias.png'
+import socorrosPagos  from './images/pagos.png'
+
     
       
        </div>
