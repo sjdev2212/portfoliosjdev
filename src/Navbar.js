@@ -20,7 +20,7 @@ const Navbar = () => {
     const showSideOnTime = () => {
       setTimeout(() => {
         setSidebar(true);
-      }, 2260);
+      }, 1560);
     };
     showSideOnTime();
   });

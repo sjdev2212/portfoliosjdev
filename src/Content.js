@@ -1,6 +1,7 @@
 /* import Carousel from '@itseasy21/react-elastic-carousel' */
 import './Content.css'
-/* import task1 from './images/task-1.png'
+import {useState} from 'react'
+ import task1 from './images/task-1.png'
 import task2 from './images/task-2.png'
 import task3 from './images/home-light.png'
 import task4 from './images/add-bill.png'
@@ -16,10 +17,15 @@ import socorrosInst from './images/institucional.png'
 import socorrosInst2 from './images/institucional-2.png'
 import socorrosUrgencias  from './images/urgencias.png'
 import socorrosPagos  from './images/pagos.png'
- */
+
+
 export const Content = () => {
 
+  const [active , setActive] = useState(false)
 
+const handleActive = () => {
+  setActive(!active)
+}
 
   return (
     <main className="content">
@@ -28,7 +34,7 @@ export const Content = () => {
 {/*   <section className="task-manager">
     <div className="carousel-task" >
     <Carousel itemsToShow={1}>
-    <img className="task-img" src={task1} alt="first pic task" />
+    
     <img className="task-img" src={task2} alt="second pic task" />
     <img className="task-img" src={loginLight} alt="login light" />
     <img className="task-img" src={loginDark} alt="login dark" />
@@ -148,6 +154,50 @@ CSS
             
     </section>
  */}
+
+<section className='cards-container'>
+<div className='card' onClick={handleActive}>
+<h2 class="title">Task Manager </h2>
+</div>
+<div className='card'>
+  
+</div>
+<div className='card'>
+  
+</div>
+<div className='card'>
+  
+</div>
+</section>
+
+<section onClick={handleActive} className={active ?  'task-manager-active' : 'task-closed'}>
+<div className='task-content'>
+<h2>Task Manager</h2>
+<p>Introducing my comprehensive task manager application, 
+        designed to keep you organized effortlessly. 
+        This versatile tool empowers users to efficiently manage tasks, 
+        bills, and appointments, all within a single platform. 
+        With a sleek dark mode for enhanced visual comfort and a seamless toggle between Spanish and English languages, 
+        the app is tailored to suit diverse user preferences. 
+        Rigorously tested with Jest, it's not just a task manager; 
+        it's your reliable digital assistant for staying on top of life's demands.</p>
+        <div className='task-btns'>
+        <a href='https://shimmering-buttercream-92b1e0.netlify.app/' target='_blank' rel="noreferrer" className='btn'>See Live</a>
+     
+
+
+     </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
 
  
 
