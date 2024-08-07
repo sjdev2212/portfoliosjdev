@@ -6,7 +6,7 @@
   align-items: center;
   position: fixed;
   top: 0;
-  z-index: 100; 
+  z-index: 100;
 }
 
 .menu-bars {
@@ -41,7 +41,8 @@
   align-items: center;
   padding: 8px 0px 8px 16px;
   list-style: none;
-  height: 60px;
+  height: 4vw;
+  margin: 5vw 0;
 }
 
 .nav-text a {
@@ -78,6 +79,11 @@ span {
   margin-left: 16px;
 
 }
+
+.disabled {
+  display: none;
+}
+
 
 .icons {
   display: grid;
@@ -125,8 +131,8 @@ span {
   margin: 0 5vw;
   background-image: linear-gradient(to right, #edeaf7 0%, #d2d1da 51%, #dbd9e3 100%);
   transition: 0.5s;
-  
- 
+
+
 }
 
 .angel:hover {
@@ -135,9 +141,10 @@ span {
 
 
 @media screen and (max-width: 768px) {
-  .navbar-res{
+  .navbar-res {
     display: none;
   }
+
   .navbar {
     display: none;
   }
