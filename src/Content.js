@@ -9,7 +9,7 @@ import task5 from "./images/add-task.png";
 import task6 from "./images/calendar.png";
 import loginLight from "./images/login-light.png";
 import loginDark from "./images/login-dark.png";
-import { motion } from 'framer-motion';
+
 
 /* import socorrosFirstHome from './images/first-home.png'
 import socorrosSecondHome from './images/second-home.png'
@@ -107,9 +107,7 @@ import socorrosPagos  from './images/pagos.png'
     
       
        </div>
-      
-
-       </section>
+      </section>
 
   
   
