@@ -229,7 +229,7 @@ CSS
               See Live
             </a>
 
-<a  onClick={handleActive}  className="btn">Go Back</a>
+<image onClick={handleActive}   className="btn">Go Back</image>
             <a
               href="https://github.com/sjdev2212/taskmng.git"
               target="_blank"
