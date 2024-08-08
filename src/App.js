@@ -7,7 +7,6 @@ import {About} from './About';
 import {Content} from './Content';
 
 
-
 function App() {
 
   
@@ -15,7 +14,7 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <Navbar/>
-   
+      
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />

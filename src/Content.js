@@ -9,6 +9,8 @@ import task5 from "./images/add-task.png";
 import task6 from "./images/calendar.png";
 import loginLight from "./images/login-light.png";
 import loginDark from "./images/login-dark.png";
+import { motion } from 'framer-motion';
+
 /* import socorrosFirstHome from './images/first-home.png'
 import socorrosSecondHome from './images/second-home.png'
 import socorrosContact from './images/contacto.png'
@@ -178,10 +180,11 @@ CSS
       </section>
 
       <section
-        onClick={handleActive}
+      
         className={active ? "task-manager-active" : "task-closed"}
       >
         <div className="task-content">
+          <div className="task-content-upper">
           <h2>Task Manager</h2>
           <p>
             Introducing my comprehensive task manager application, designed to
@@ -193,15 +196,18 @@ CSS
             Jest, it's not just a task manager; it's your reliable digital
             assistant for staying on top of life's demands.
           </p>
-          <div className="task-btns">
-            <a
-              href="https://shimmering-buttercream-92b1e0.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="btn"
-            >
-              See Live
-            </a>
+          <div
+      className="neon-text"
+    
+      >
+    
+
+    Built with React, Axios, Node.js, Express, MongoDB, and Jest. Deployed on Netlify.
+  </div>
+  
+          </div>
+          <div className="task-content-downer">
+       
 
             <div className="carousel-task">
               <Carousel itemsToShow={1}>
@@ -214,6 +220,27 @@ CSS
                 <img className="task-img" src={task6} alt="calendar" />
                 <img className="task-img" src={task1} alt="firstpic task" />
               </Carousel>
+            </div>
+            <div className="task-btns">
+            <a
+              href="https://shimmering-buttercream-92b1e0.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              See Live
+            </a>
+
+<a  onClick={handleActive}  className="btn">Go Back</a>
+            <a
+              href="https://github.com/sjdev2212/taskmng.git"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              See Source
+            </a>
+
             </div>
           </div>
         </div>
