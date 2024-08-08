@@ -31,7 +31,7 @@ export const Content = () => {
         <div className="card" onClick={handleActiveTask}>
           <h2 className="title">Task Manager </h2>
         </div>
-        <div className="card" onClick={handleActiveSocorros}>
+        <div className="card-soc" onClick={handleActiveSocorros}>
           <h2 className="title">Socorros Mutuos</h2>
         </div>
         <div className="card">
