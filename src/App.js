@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter ,Routes,Route,} from 'react-router-dom';
+import { useState } from 'react';
 import Navbar from './Navbar';
 import {Home} from './Home';
 import {Contact} from './Contact';
@@ -8,6 +9,9 @@ import {Content} from './Content';
 
 
 function App() {
+
+  const [activeSocorros, setActiveSocorros] = useState(false);
+  const [activescraper, setActiveScraper] = useState(false);
 
   
   return (
@@ -20,7 +24,12 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
       
-        <Route path="/projects" element={<Content />} />
+        <Route path="/projects" element={<Content
+         activeSocorros={activeSocorros}
+          activeScraper={activescraper}
+          setActiveSocorros={setActiveSocorros}
+          setActiveScraper={setActiveScraper}
+          />} />
        
       </Routes>
    
