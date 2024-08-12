@@ -10,7 +10,11 @@ import socorrosPagos  from './images/pagos.png'
 import Carousel from "@itseasy21/react-elastic-carousel";
  
 
-const Socorros = () => {
+const Socorros = ({activeSocorros,setActiveSocorros}) => {
+
+  const handleActiveSocorros = () => {
+    setActiveSocorros(!activeSocorros);
+  }
   return (
     <>
         <div className="task-content">
@@ -54,7 +58,7 @@ const Socorros = () => {
                 See Live
               </a>
 
-              <image  className="btn">
+              <image  onClick={handleActiveSocorros}  className="btn">
                 Go Back
               </image>
               <a
