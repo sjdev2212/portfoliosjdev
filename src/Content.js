@@ -10,18 +10,27 @@ import task6 from "./images/calendar.png";
 import loginLight from "./images/login-light.png";
 import loginDark from "./images/login-dark.png";
 import Socorros from "./Socorros";
+import Scraper from "./Scraper";
 
 
 
-export const Content = () => {
+export const Content = ({
+  activeSocorros,
+  activeScraper,
+  setActiveSocorros,
+  setActiveScraper,
+}) => {
   const [activeTask, setActiveTask] = useState(false);
-  const [activeSocorros, setActiveSocorros] = useState(false);
 
   const handleActiveTask = () => {
     setActiveTask(!activeTask);
   };
   const  handleActiveSocorros = () => {
     setActiveSocorros(!activeSocorros);
+  }
+
+  const handleActiveScraper = () => {
+    setActiveScraper(!activeScraper);
   }
 
   return (
@@ -34,12 +43,10 @@ export const Content = () => {
         <div className="card-soc" onClick={handleActiveSocorros}>
           <h2 className="title">Socorros Mutuos</h2>
         </div>
-        <div className="card">
-          <h2 className="title">Coming Soon</h2>
+        <div className="card-scrap" onClick={handleActiveScraper} >
+          <h2 className="title">Web Scraper</h2>
         </div>
-        <div className="card">
-          <h2 className="title">Coming Soon</h2>
-        </div>
+       
       </section>
 
       <section className={activeTask ? "task-manager-active" : "task-closed"}>
@@ -101,7 +108,19 @@ export const Content = () => {
         </div>
       </section>
       <section className={activeSocorros ? "task-manager-active" : "task-closed"}>
-        <Socorros />
+        <Socorros 
+        activeSocorros={activeSocorros}
+        setActiveSocorros={setActiveSocorros}
+        
+        />
+        </section>
+
+        <section className={activeScraper ? "task-manager-active" : "task-closed"}>
+        <Scraper 
+        activeScraper={activeScraper}
+        setActiveScraper={setActiveScraper}
+        
+        />
         </section>
     </main>
   );
