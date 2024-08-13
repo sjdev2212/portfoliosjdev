@@ -3,7 +3,7 @@ import {useNavigate } from 'react-router';
 import {Link} from 'react-router-dom'
 import emailjs from '@emailjs/browser';
 import toast, {Toaster}  from 'react-hot-toast';
-import mail from './images/mail.svg';
+import mail from './images/envelope.png';
 import './Contact.css'
 
 
@@ -66,7 +66,8 @@ export const Contact = () => {
       <label>Message</label>
       <textarea className='text-area' name="message" />
       <input className='button' type="submit" value="Send" />
-      <img id='vari'  src={mail} alt='mail icon' />
+      <img id='vari' 
+       src={mail} alt='mail icon' />
     </form>
     <div className="back-div">
     <Link to='/' className="back">Back</Link>
