@@ -55,27 +55,30 @@ export const About = () => {
         <p className="text-about">Some of my skills are:</p>
         <p className="text-about">
           Front-end: JavaScript, React, Redux, HTML5, CSS3, Bootstrap, Tailwind.
-          <img className="techs-desk visible" style={{width:"3vw"}} src={javascript} alt="javascript icon" />
+          <img className="techs-desk visible" style={{width:"2vw"}} src={javascript} alt="javascript icon" />
           <img className="techs-desk visible-2" style={{width:"3.1vw"}} src={react} alt="react icon" />
           <img className="techs-desk visible" style={{width:"3vw"}} src={redux} alt="redux icon" />
-          <img className='techs-desk visible-2'style={{width:"3vw", height:"3.4vw"}} src={html} alt='html icon' />
-          <img className='techs-desk visible' style={{width:"3.8vw", height:"4.2vw" , paddingTop: "0.6vw"}} src={css} alt='css icon' />
-          <img className='techs-desk visible-2' style={{width:"3.5vw",height: "5vw", paddingTop: '1.7vw'}}  src={boot} alt='bootstrap icon' />
-          <img className='techs-desk visible'style={{width:"3.5vw" ,height: "5vw",paddingTop: '1.7vw' }}  src={tailwind} alt='tailwind icon' />
+          <img className='techs-desk visible-2'style={{width:"3vw", height:"1.7vw"}} src={html} alt='html icon' />
+          <img className='techs-desk visible' style={{width:"3.8vw", height:"2.4vw" , paddingTop: "0.6vw"}} src={css} alt='css icon' />
+          <img className='techs-desk visible-2' style={{width:"3.1vw",height: "3.2vw", paddingTop: '1.7vw'}}  src={boot} alt='bootstrap icon' />
+          <img className='techs-desk visible'style={{width:"3.5vw" ,height: "3.2vw",paddingTop: '1.7vw' }}  src={tailwind} alt='tailwind icon' />
         </p>
         <p className="text-about">
           Back-End: Ruby on Rails, Postgresql, Node.js, MongoDB.
           <img className='techs-desk visible' style={{width:"3vw"}}  src={ruby}  alt='ruby icon' />
           <img className='techs-desk visible-2'style={{width:"3vw"}}  src={rails} alt='rails icon' />
           <img className='techs-desk visible' style={{width:"3vw"}}  src={postgresql} alt='postgresql icon' />
-          <img className='techs-desk visible-2' style={{width:"4.3vw", height: "4vw"}}  src={node} alt='node icon' />
-          <img className='techs-desk visible' style={{width:"5vw", height: "5vw"}}  src={mongo} alt='mongo icon' />
+          <img className='techs-desk visible-2' style={{width:"4.3vw", height: "2vw"}}  src={node} alt='node icon' />
+          <img className='techs-desk visible' style={{width:"5vw", height: "2.4vw"}}  src={mongo} alt='mongo icon' />
         </p>
         <p className="text-about">
           Tools and methods: Git, Github, Netlify, Render,  Firebase.
         
           <img className='techs-desk visible-2' style={{width:"3vw"}}  src={git} alt='git icon' />
-          <img className='techs-desk visible' style={{width:"3.6vw", height: '3.8vw' ,paddingTop: '0.5vw' }}  src={gitcat} alt='github icon' />
+          <img className='techs-desk visible' style={{width:"3vw", height: '2.4vw',
+            position: "relative",
+            top: "0.5vw",
+           }}  src={gitcat} alt='github icon' />
           <img className='techs-desk visible-2' style={{width:"3vw"}}  src={netlify} alt='netlify icon' />
           <img className='techs-desk visible' style={{width:"2.5vw"}}  src={fire} alt='firebase icon' />
          
