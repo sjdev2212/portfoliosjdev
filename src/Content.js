@@ -11,6 +11,8 @@ import loginLight from "./images/login-light.png";
 import loginDark from "./images/login-dark.png";
 import Socorros from "./Socorros";
 import Scraper from "./Scraper";
+import StreetNames from "./StreetNames";
+import { RiArrowGoBackFill } from "react-icons/ri";
 
 
 
@@ -19,13 +21,15 @@ export const Content = ({
   activeScraper,
   setActiveSocorros,
   setActiveScraper,
+  activeStreet, 
+  setActiveStreet
 }) => {
   const [activeTask, setActiveTask] = useState(false);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth', // Optional: smooth scrolling
+      behavior: 'smooth', 
     });
   };
 
@@ -42,13 +46,17 @@ export const Content = ({
     setActiveScraper(!activeScraper);
     scrollToTop();
   }
+  const handleActiveStreet = () => {
+    setActiveStreet(!activeStreet);
+    scrollToTop();
+  }
 
   return (
     <main className="content">
       <h1>Latest Projects</h1>
 <section className="cards-container">
-<div className="card" onClick={handleActiveTask}>
-          <h2 className="title">Task Manager </h2>
+<div className="card-street" onClick={handleActiveStreet}>
+          <h2 className="title">Street Names </h2>
         </div>
         <div className="card" onClick={handleActiveTask}>
           <h2 className="title">Task Manager </h2>
@@ -101,18 +109,25 @@ export const Content = ({
                 target="_blank"
                 rel="noreferrer"
                 className="btn"
+                style={{marginBottom: '2vw'}}
               >
                 See Live
               </a>
 
-              <image onClick={handleActiveTask} className="btn">
-                Go Back
-              </image>
+              <div onClick={handleActiveTask} className="btn">
+              <RiArrowGoBackFill style={
+                {fontSize: '1.5vw', marginTop: '0.4vw'}
+              } 
+              className="back-icon"
+              
+              />
+              </div>
               <a
                 href="https://github.com/sjdev2212/taskmng.git"
                 target="_blank"
                 rel="noreferrer"
                 className="btn"
+                style={{marginBottom: '2vw'}}
               >
                 See Source
               </a>
@@ -120,6 +135,13 @@ export const Content = ({
           </div>
         </div>
       </section>
+      <section className={activeStreet ? "task-manager-active" : "task-closed"}>
+        <StreetNames 
+        activeStreet={activeStreet}
+        setActiveStreet={setActiveStreet}
+        
+        />
+        </section>
       <section className={activeSocorros ? "task-manager-active" : "task-closed"}>
         <Socorros 
         activeSocorros={activeSocorros}
