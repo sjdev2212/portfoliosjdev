@@ -64,6 +64,7 @@ const Scraper = (
                 target="_blank"
                 rel="noreferrer"
                 className="btn"
+                style={{marginBottom: '2vw'}}
               >
                 See Source
               </a>
