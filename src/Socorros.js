@@ -8,6 +8,7 @@ import socorrosInst2 from './images/institucional-2.png'
 import socorrosUrgencias  from './images/urgencias.png'
 import socorrosPagos  from './images/pagos.png'
 import Carousel from "@itseasy21/react-elastic-carousel";
+import { RiArrowGoBackFill } from "react-icons/ri";
  
 
 const Socorros = ({activeSocorros,setActiveSocorros}) => {
@@ -59,9 +60,9 @@ const Socorros = ({activeSocorros,setActiveSocorros}) => {
                 See Live
               </a>
 
-              <image  onClick={handleActiveSocorros}  className="btn">
-                Go Back
-              </image>
+              <div  onClick={handleActiveSocorros}  className="btn">
+                <RiArrowGoBackFill style={{fontSize: '1.5vw', marginTop: '0.4vw'}} className="back-icon"/>
+              </div>
               <a
                 href="https://github.com/sjdev2212/socorros-mutuos.git"
                 target="_blank"
