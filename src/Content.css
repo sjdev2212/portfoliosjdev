@@ -46,7 +46,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: 100vw;
+  height:70vw;
   margin-top: 4vw;
 }
 
@@ -552,7 +552,7 @@
 .task-manager-active {
   display: flex;
   flex-direction: column;
-  height: 40vw;
+  height: 55vw;
   width: 80%;
   position: relative;
   bottom: 41vw;
@@ -564,6 +564,7 @@
   border-color: #dc234c;
   color: #dc234c;
   cursor: pointer;
+ 
 
 
 
