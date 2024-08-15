@@ -12,6 +12,7 @@ function App() {
 
   const [activeSocorros, setActiveSocorros] = useState(false);
   const [activescraper, setActiveScraper] = useState(false);
+  const [activeStreet, setActiveStreet] = useState(false);
 
   
   return (
@@ -29,6 +30,8 @@ function App() {
           activeScraper={activescraper}
           setActiveSocorros={setActiveSocorros}
           setActiveScraper={setActiveScraper}
+          activeStreet={activeStreet}
+          setActiveStreet={setActiveStreet}
           />} />
        
       </Routes>
