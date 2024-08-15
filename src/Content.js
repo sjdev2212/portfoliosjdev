@@ -22,21 +22,34 @@ export const Content = ({
 }) => {
   const [activeTask, setActiveTask] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // Optional: smooth scrolling
+    });
+  };
+
   const handleActiveTask = () => {
     setActiveTask(!activeTask);
+    scrollToTop();
   };
   const  handleActiveSocorros = () => {
     setActiveSocorros(!activeSocorros);
+      scrollToTop();
   }
 
   const handleActiveScraper = () => {
     setActiveScraper(!activeScraper);
+    scrollToTop();
   }
 
   return (
     <main className="content">
       <h1>Latest Projects</h1>
 <section className="cards-container">
+<div className="card" onClick={handleActiveTask}>
+          <h2 className="title">Task Manager </h2>
+        </div>
         <div className="card" onClick={handleActiveTask}>
           <h2 className="title">Task Manager </h2>
         </div>
