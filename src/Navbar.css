@@ -21,7 +21,8 @@
   width: 13vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   position: fixed;
   top: 0;
   left: -100%;
@@ -48,7 +49,7 @@
 .nav-text a {
   text-decoration: none;
   color: #e02751;
-  font-size: 18px;
+  font-size: 19px;
   width: 95%;
   height: 100%;
   display: flex;
@@ -87,7 +88,7 @@ span {
 
 .icons {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin-top: 0.3vw;
   margin-left: 20vw;
   list-style: none;
